@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { DeployStack } from '../lib/deploy-stack';
+import { OrgCapStack } from '../lib/org-cap-stack';
 
 const app = new cdk.App();
-new DeployStack(app, 'DeployStack');
+new OrgCapStack(app, 'OrgCapStack');
