@@ -1,0 +1,37 @@
+.team {
+    width: 20px;
+    height: 20px
+}
+
+#the_tool_tip {
+    color: red;
+    position: absolute;
+    z-index: 1;
+}
+
+.service {
+    r: 10px;
+}
+
+
+.team-class-0 {
+    fill: red
+}
+
+.team-class-1 {
+    fill: green
+}
+
+.team-class-2 {
+    fill: blue
+}
+
+.inactive {
+    fill: grey
+}
+
+.highlighted {
+    stroke-width: 3px;
+    stroke: black;
+}
+
